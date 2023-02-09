@@ -102,6 +102,7 @@ jQuery(document).ready(function($) {
             e.preventDefault();
         }
         
+	/*
         $('nav a, .main-btn a').click(function(e) {
             // When link clicked, find slide it points to
             var newslide = parseInt($(this).attr('href')[1]);
@@ -110,6 +111,7 @@ jQuery(document).ready(function($) {
             showSlide(diff); // show that slide
             e.preventDefault();
         });
+	*/
       
         $(window).resize(function(){
           // Keep current slide to left of window on resize
